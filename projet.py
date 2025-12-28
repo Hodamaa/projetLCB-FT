@@ -52,9 +52,9 @@ smurfing = (
         (df["montant_eur"] < SEUIL_SMURFING_MONTANT)
     ]
     .set_index("date_transaction")
-    .groupby("client_id")["transaction_id"]   # 👈 colonne explicite
+    .groupby("client_id")["transaction_id"]  
     .rolling(SEUIL_SMURFING_DUREE)
-    .count()                                  # 👈 au lieu de size()
+    .count()                                  
     .reset_index(name="nb_tx")
 )
 #ensuite on utilise la date comme repère(l54) , et on travail client par client en travaillant sur leur transaction (l55) , sur une durée de 7 jours (L56), et on compte le nombre de transactions (L57), et pour finir on remet sous forme de tableau avec comme nouvelle colonnes nombre de transactions (l57)
@@ -127,4 +127,5 @@ suspects = suspects.drop(columns=["is_money_laundering"])
 #on supprime la colonne car elle ne donne aucune information utile à part true 
 suspects.to_csv("transactions_suspectes.csv", index=False)
 #j'exporte le resultat dans un csv , pour éviter une colonne inutile (index=false)
+
 print("Le fichier 'transactions_suspectes.csv' a été créé avec succès")
