@@ -18,7 +18,7 @@ pays_risque = [
     "Nepal", "Nigeria", "Republique democratique du Congo",
     "Soudan du Sud", "Tanzanie", "Venezuela", "Vietnam",
     "Iles Vierges britanniques", "Yemen",
-    "افغانستان", "Iles Caimans", "Luxembourg"
+    "افغانستان", "Iles Caimans", 
 ]
 
 #ici les pays sur liste noire et grise du GAFI et la liste  les pays tiers à hauts
@@ -129,3 +129,4 @@ suspects.to_csv("transactions_suspectes.csv", index=False)
 #j'exporte le resultat dans un csv , pour éviter une colonne inutile (index=false)
 
 print("Le fichier 'transactions_suspectes.csv' a été créé avec succès")
+
