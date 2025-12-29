@@ -28,9 +28,10 @@ Structure attendue du projet
 .
 ├── data/
 │   └── data_fraud.csv
-├── script_detection.py
-└── README.md (ou README.txt)
-
+│   └── KYC.csv
+├── code.py
+├── README.md 
+├──projet_final_TP.pdf
 ---
 
 Données d’entrée
@@ -45,6 +46,17 @@ Le fichier data/data_fraud.csv doit contenir au minimum les colonnes suivantes :
 - sens : sens de la transaction (IN ou OUT)
 - pays_destination : pays de destination des fonds
 
+Le fichier KYC.csv doit contenir au minimum les colonnes suivantes :
+- client_id :  identifiant du client
+- type_client : particulier ou professionnel
+- profession : emploi du client 
+- revenu_mensuel_estime : revenu du client 
+- pays_residence : pays de résidence du client 
+- anciennete_relation_mois : ancienneté en mois du client 
+- usage_cash_attendu :  clasé élevé/moyen/faible de la fréquence d'utilisation du liquide par le client 
+- flux_internationaux_habituels : oui/non le client échange à l'international 
+- niveau_risque_client : élevé/moyen/faible du profil risque
+  
 Les données utilisées dans ce projet sont artificielles et générées à des fins pédagogiques.
 
 ---
@@ -74,7 +86,7 @@ Exécution du script
 -------------------
 Depuis la racine du projet, exécuter la commande suivante :
 
-python script_detection.py
+python code.py
 
 ---
 
