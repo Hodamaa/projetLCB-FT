@@ -29,6 +29,7 @@ Structure attendue du projet
 ├── data/
 │   └── data_fraud.csv
 │   └── KYC.csv
+
 ├── code.py
 ├── README.md 
 ├──projet_final_TP.pdf
