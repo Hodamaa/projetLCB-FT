@@ -1,0 +1,11 @@
+client_id,type_client,profession,revenu_mensuel_estime,pays_residence,anciennete_relation_mois,usage_cash_attendu,flux_internationaux_habituels,niveau_risque_client
+C01,Particulier,Restaurateur,4500,France,14,Élevé,Non,Élevé
+C02,Particulier,Étudiant,1200,France,3,Faible,Non,Moyen
+C03,Particulier,Consultant IT,6000,France,36,Faible,Oui,Moyen
+C04,Professionnel,PME BTP,12000,France,60,Moyen,Non,Faible
+C05,Professionnel,Holding patrimoniale,20000,France,48,Faible,Oui,Moyen
+C06,Particulier,Auto-entrepreneur,3000,France,6,Moyen,Non,Moyen
+C07,Particulier,Import-export,7000,France,24,Faible,Oui,Élevé
+C08,Particulier,Cadre salarié,5500,France,72,Faible,Non,Faible
+C09,Particulier,Investisseur privé,9000,France,18,Faible,Oui,Élevé
+C10,Particulier,Employé,1800,France,1,Faible,Non,Moyen
