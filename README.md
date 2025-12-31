@@ -1,5 +1,8 @@
 Détection de transactions suspectes LCB-FT – Script Python
 
+Pour accéder aux liens interactifs, veuillez ouvrir le PDF via ce lien :
+[Voir le PDF interactif](https://github.com/Hodamaa/projetLCB-FT/blob/main/projet_final_TP.pdf?raw=true)
+
 Description
 -----------
 Ce programme permet de détecter automatiquement des transactions potentiellement suspectes
